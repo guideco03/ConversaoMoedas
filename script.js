@@ -10,11 +10,11 @@ function converter(){
 
   var valorEmReal = 0
   if(min == "dolar"){
-    valorEmReal = valorOriginal * 4.67
+    valorEmReal = valorOriginal * 4.94
   }else if(min == "euro"){
-    valorEmReal = valorOriginal * 5.06
+    valorEmReal = valorOriginal * 5.19
   }else if(min == "libra"){
-    valorEmReal = valorOriginal * 6.08
+    valorEmReal = valorOriginal * 6.16
   }else {
     valorEmReal = valorOriginal
   }
@@ -22,9 +22,9 @@ function converter(){
   var valorConvertido = 0
   
    if(mout == "dolar"){
-    valorConvertido = valorEmReal * 0.21
-  }else if(mout == "euro"){
     valorConvertido = valorEmReal * 0.20
+  }else if(mout == "euro"){
+    valorConvertido = valorEmReal * 0.19
   }else if(mout == "libra"){
     valorConvertido = valorEmReal * 0.16
   }else {
